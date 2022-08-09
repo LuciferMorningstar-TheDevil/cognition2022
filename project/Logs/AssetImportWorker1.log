@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16291 MB
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15790 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Program Files\Unity\2021.3.7f1\Editor\Unity.exe
+D:\Unity Hub\Editor\2021.3.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/cognition2022/cognition2022/project
+D:/GitHub/cognition2022/project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56510
-Successfully changed project path to: C:/cognition2022/cognition2022/project
-C:/cognition2022/cognition2022/project
+63265
+Successfully changed project path to: D:/GitHub/cognition2022/project
+D:/GitHub/cognition2022/project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,53 +47,53 @@ C:/cognition2022/cognition2022/project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 109.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
-[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/cognition2022/cognition2022/project/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/cognition2022/project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
     Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   30.0.14.7219
+    VRAM:     3991 MB
+    Driver:   30.0.15.1278
 Initialize mono
-Mono path[0] = 'D:/Program Files/Unity/2021.3.7f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/Unity/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Program Files/Unity/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Mono path[0] = 'D:/Unity Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files/Unity/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003420 seconds.
+Register platform support module: D:/Unity Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002177 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 111.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
+- Completed reload, in  0.708 seconds
 Domain Reload Profiling:
-	ReloadAssembly (729ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (708ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (525ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (511ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (314ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (294ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
+				RefreshPlugins (100ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadAttributes (136ms)
 				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -101,57 +101,58 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006247 seconds.
+Registered in 0.005540 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\cognition2022\cognition2022\project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\cognition2022\cognition2022\project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\cognition2022\project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\cognition2022\project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.161 seconds
+- Completed reload, in  1.215 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1162ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1216ms)
+		BeginReloadAssembly (183ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (912ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (910ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
+			SetupTypeCache (304ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (410ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (416ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3834.
-Memory consumption went from 118.4 MB to 118.3 MB.
-Total: 3.381800 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.217800 ms MarkObjects: 2.800900 ms  DeleteObjects: 0.099300 ms)
+Unloading 27 unused Assets / (111.4 KB). Loaded Objects now: 3835.
+Memory consumption went from 118.8 MB to 118.7 MB.
+Total: 3.713800 ms (FindLiveObjects: 0.335200 ms CreateObjectMapping: 0.138700 ms MarkObjects: 3.115500 ms  DeleteObjects: 0.123100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -159,394 +160,76 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 9899.406207 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Wood/Materials/Wood_MET.mat
-  artifactKey: Guid(ca4df596501ad3e44bb05d7b09351c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Wood/Materials/Wood_MET.mat using Guid(ca4df596501ad3e44bb05d7b09351c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b44e75d074fb0794f623d21fac0103') in 0.132608 seconds 
+  Time since last request: 50844.212608 seconds.
+  path: Assets/Horror Environment Pack 1 v1.0
+  artifactKey: Guid(995dd81ad35e7ce45b2c508ea8d5f3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0 using Guid(995dd81ad35e7ce45b2c508ea8d5f3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af10b5a682e59b3b9d2fe0b0b2a53976') in 0.010142 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Wood/Materials/Wood_ALB.mat
-  artifactKey: Guid(e1bef8e4fb9f0a94395e9e6e00a8e623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Wood/Materials/Wood_ALB.mat using Guid(e1bef8e4fb9f0a94395e9e6e00a8e623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcaacf8277b2f370309ed1a8e00ec45') in 0.029487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.671212 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Paper/Models/Envelope_2.FBX
-  artifactKey: Guid(e0a42cd74fffce04c97a547c70596f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Paper/Models/Envelope_2.FBX using Guid(e0a42cd74fffce04c97a547c70596f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6faa8d5dec56d5ca9f9490546e82aa') in 0.049240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Folder_4.FBX
-  artifactKey: Guid(cf7568b58bdb8cb49905699bd909edcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Folder_4.FBX using Guid(cf7568b58bdb8cb49905699bd909edcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48754fb1b153383cbab03550add3a3fc') in 0.024052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_8.FBX
-  artifactKey: Guid(869bb9a4fe00bbf4aa76c7f4ecad1cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_8.FBX using Guid(869bb9a4fe00bbf4aa76c7f4ecad1cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f762b13a71fd2920c8843fc22c671b09') in 0.026387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Sheet_1.FBX
-  artifactKey: Guid(6fa05e264c4a4ef489e4fe8759ad1444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Sheet_1.FBX using Guid(6fa05e264c4a4ef489e4fe8759ad1444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e706ef1a28d54fc4301983761cfad1e') in 0.025534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Sheet_2.FBX
-  artifactKey: Guid(4fd6ebf27daabd64db79c36b442ffde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Sheet_2.FBX using Guid(4fd6ebf27daabd64db79c36b442ffde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdc187772ea0e30ac7a9efa110ed7f4') in 0.032991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_5.FBX
-  artifactKey: Guid(b1b1cb05866343640a1ea0628135a006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_5.FBX using Guid(b1b1cb05866343640a1ea0628135a006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1836a9a103c4a788f115890e4ccc224c') in 0.031168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_9.FBX
-  artifactKey: Guid(30a0aca3577fe7744ba29e19735de9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_9.FBX using Guid(30a0aca3577fe7744ba29e19735de9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca099d6581ef4ada9524a4587476463') in 0.029149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Folder_3.FBX
-  artifactKey: Guid(11f8e4314f497ae46b9bc3bdcd5ed834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Folder_3.FBX using Guid(11f8e4314f497ae46b9bc3bdcd5ed834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3dde6f796f9ae74bb89c33558a219d3') in 0.027201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_4.FBX
-  artifactKey: Guid(2731cfd956f376d479bc24bb1e2415d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_4.FBX using Guid(2731cfd956f376d479bc24bb1e2415d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4073c22e6e162ebbdbd92bf29707927d') in 0.026830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_10.FBX
-  artifactKey: Guid(97eb7c4bb5ec8b64ca7b012f3d76e63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_10.FBX using Guid(97eb7c4bb5ec8b64ca7b012f3d76e63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f186f7d7710cb35aca107d2565977e0') in 0.039646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_3.FBX
-  artifactKey: Guid(a3af88520a1b2fd4b99160b098b26b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Paper/Models/Paper_Pile_3.FBX using Guid(a3af88520a1b2fd4b99160b098b26b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37ce9ae92dc4d4626a679b3fcf567a3') in 0.030815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.067012 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Book_Holder_Face.FBX
-  artifactKey: Guid(a3e8f21b7890497409f2f6e5c194fd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Book_Holder_Face.FBX using Guid(a3e8f21b7890497409f2f6e5c194fd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54f3b785efe7d98f320ae2acf9b2327') in 0.026328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Frame_Wall_3.FBX
-  artifactKey: Guid(d45acb8361113bd4cb4629ca0a683188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Frame_Wall_3.FBX using Guid(d45acb8361113bd4cb4629ca0a683188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8831410de4bedc3c16e88d2e50c514ca') in 0.025944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Magazine_6.FBX
-  artifactKey: Guid(0d9b6a429d8ba054d9646f48ac93b9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Magazine_6.FBX using Guid(0d9b6a429d8ba054d9646f48ac93b9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704df2b0233af891ee71e4c6630b2031') in 0.024748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Folder_Big_Yallow.FBX
-  artifactKey: Guid(11e8f9ef01c8e76468ce5f7e941464d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Folder_Big_Yallow.FBX using Guid(11e8f9ef01c8e76468ce5f7e941464d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115785c83b0116e27a62d9a85b92937f') in 0.033210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Cup.FBX
-  artifactKey: Guid(a272e1537cfd4344c83fd48c51a8dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Cup.FBX using Guid(a272e1537cfd4344c83fd48c51a8dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159cf159994ea11bc5fae47afce94971') in 0.030338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Frame_Stand_1.FBX
-  artifactKey: Guid(6f7bbd312583ba84e8254d9416c4301d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Frame_Stand_1.FBX using Guid(6f7bbd312583ba84e8254d9416c4301d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901938785f5850215755565a643bd3af') in 0.029884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Eraser.FBX
-  artifactKey: Guid(b2a4abdcb46e807469e4c246a8652dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Eraser.FBX using Guid(b2a4abdcb46e807469e4c246a8652dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275c8c6e168ed9ca49e1fff5f20be582') in 0.105620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Magazine_2.FBX
-  artifactKey: Guid(4ea980bd194d59a4ebe999591b70ab91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Magazine_2.FBX using Guid(4ea980bd194d59a4ebe999591b70ab91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340e6dcd123082c3759db2e475e5ebf2') in 0.043868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Documents_Holder.FBX
-  artifactKey: Guid(81d30e0cf24a97f448690cc1972d6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Documents_Holder.FBX using Guid(81d30e0cf24a97f448690cc1972d6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f216b9137b764c407d64b0026cf07c') in 0.043471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Magazine_Pile_1.FBX
-  artifactKey: Guid(270ce1fed05807f458afcd0a1fbe98dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Magazine_Pile_1.FBX using Guid(270ce1fed05807f458afcd0a1fbe98dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef291e3789f46372bda8ce110f74539') in 0.034313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.523602 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Magazine_Row_1.FBX
-  artifactKey: Guid(d8c3ff9d35ff235448e4cb60a1aa183d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Magazine_Row_1.FBX using Guid(d8c3ff9d35ff235448e4cb60a1aa183d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cdfd983ed28b7f13588f3d3ec1f7fc') in 0.022156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Magnifying_Glass.FBX
-  artifactKey: Guid(0c6e971b7f09871448f2e88781d3bf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Magnifying_Glass.FBX using Guid(0c6e971b7f09871448f2e88781d3bf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec64aeec5b7685fca319ac599dfdfb16') in 0.035704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Pen_Cup.FBX
-  artifactKey: Guid(2ca14dee7e538b44cab4a63ac4571dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Pen_Cup.FBX using Guid(2ca14dee7e538b44cab4a63ac4571dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3dd81d07206d39627ef769b5c271f3') in 0.027513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.184221 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Pencil_1.FBX
-  artifactKey: Guid(e64cff3b0f64e2945a65d55f66e375ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Pencil_1.FBX using Guid(e64cff3b0f64e2945a65d55f66e375ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d532063ddf9e17e38fee8c1fdfe196') in 0.027079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Pencil_4.FBX
-  artifactKey: Guid(e7a991e55454c9548ac74c82aff3c1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Pencil_4.FBX using Guid(e7a991e55454c9548ac74c82aff3c1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748c6372df6e10499f9356eefd8f5b94') in 0.037798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.557449 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/Box_Small_1.FBX
-  artifactKey: Guid(5a480ae3d12c1574db90f729f8be6c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/Box_Small_1.FBX using Guid(5a480ae3d12c1574db90f729f8be6c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862c7b084b848b87e91a9754d77d8c29') in 0.024787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/PowerBox_Medium_2.FBX
-  artifactKey: Guid(32240a06489b412499323d2a56b97342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/PowerBox_Medium_2.FBX using Guid(32240a06489b412499323d2a56b97342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83059e9fe698ba83cf53c112501e1a4') in 0.033557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/Switch_Round.FBX
-  artifactKey: Guid(00c424f6ca1302b478c6929f8d21d73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/Switch_Round.FBX using Guid(00c424f6ca1302b478c6929f8d21d73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0058421f95ea8d140a81a5e5d70d68') in 0.037519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/PowerBox_Medium_1.FBX
-  artifactKey: Guid(c8ffbb4a92e26134687097f8659f91e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/PowerBox_Medium_1.FBX using Guid(c8ffbb4a92e26134687097f8659f91e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c7885656421b5ac6dc0a0f87adec7e') in 0.032865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/PowerBox_Tiny.FBX
-  artifactKey: Guid(7969a961898b7104da8f032834108e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/PowerBox_Tiny.FBX using Guid(7969a961898b7104da8f032834108e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fce3da6331509112b8759fd51e1c57b') in 0.036933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/PowerBox_Large_2.FBX
-  artifactKey: Guid(1d17b46cc61f03d43bc34632a0068c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/PowerBox_Large_2.FBX using Guid(1d17b46cc61f03d43bc34632a0068c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eeac482ef2960ec5c35ca98eeca82d9') in 0.075682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/Wires_Horizontal_1.FBX
-  artifactKey: Guid(6f3258203a6781f42b840186bfa42ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/Wires_Horizontal_1.FBX using Guid(6f3258203a6781f42b840186bfa42ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f26dfc24709c8d0a2ba8b0cf634a5f') in 0.040595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/Socket.FBX
-  artifactKey: Guid(1d6febad46a15c0429afa775ac710d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/Socket.FBX using Guid(1d6febad46a15c0429afa775ac710d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0cfa7ff6fbcdf42311e2c3550a7b21') in 0.037454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/Triple.FBX
-  artifactKey: Guid(550ac6d8a26539b44a6154989251b762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Basement_Props/Models/Triple.FBX using Guid(550ac6d8a26539b44a6154989251b762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65805c0756e930260985711c033fe649') in 0.032482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.698718 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Wards/Wards_Ceiling_4M.FBX
-  artifactKey: Guid(1ae8ffe3cecbffb4e96dca3a9b659761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Wards/Wards_Ceiling_4M.FBX using Guid(1ae8ffe3cecbffb4e96dca3a9b659761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8c7dbc665a2c31e592da9a6a6575b4') in 0.027042 seconds 
+  Time since last request: 341.606755 seconds.
+  path: Assets/Horror Environment Pack 1 v1.0/!Prefabs/Office_Props/Desk_Props/Book_Stand.prefab
+  artifactKey: Guid(2743f4e1ee3b8314c9e6c0ccc1df3b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0/!Prefabs/Office_Props/Desk_Props/Book_Stand.prefab using Guid(2743f4e1ee3b8314c9e6c0ccc1df3b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0289e1c5c6f2339719a26d699270e9d7') in 0.271556 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Wards/Wards_Wall_1Sided.FBX
-  artifactKey: Guid(003b21449c7073a48b592c7370b5f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Wards/Wards_Wall_1Sided.FBX using Guid(003b21449c7073a48b592c7370b5f975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620353692366a1090aa29f95095aa0cb') in 0.041264 seconds 
+  path: Assets/Horror Environment Pack 1 v1.0/!Prefabs/Office_Props/Picture_Frames/Frame_Stand_1.prefab
+  artifactKey: Guid(19771722a81858d41a28858cb81de3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0/!Prefabs/Office_Props/Picture_Frames/Frame_Stand_1.prefab using Guid(19771722a81858d41a28858cb81de3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6774e5b9c5695301acd327b67e43ae11') in 0.043759 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Wards/Wards_Window.FBX
-  artifactKey: Guid(0fc70c72708aa99458a40a2a679cbac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Wards/Wards_Window.FBX using Guid(0fc70c72708aa99458a40a2a679cbac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b9e9444b91273e34877edc124f6cf9') in 0.045177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 72.720573 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Doors/Door_Old_Metal.FBX
-  artifactKey: Guid(f24741b852f5b70429152cc9deffcb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Doors/Door_Old_Metal.FBX using Guid(f24741b852f5b70429152cc9deffcb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a623dae0fd6b1f1c09dd848766bd3a71') in 0.042422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.909021 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Archway.FBX
-  artifactKey: Guid(a2bcc1d5bba976a4fa1562e0c0a40934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Archway.FBX using Guid(a2bcc1d5bba976a4fa1562e0c0a40934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb27a37207f0ee66ce9902ad3991b63') in 0.028421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Doorway_3M_Large.FBX
-  artifactKey: Guid(a6039f6d6d7c545459ad4d01d72dc8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Doorway_3M_Large.FBX using Guid(a6039f6d6d7c545459ad4d01d72dc8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307d3664defd4fe5b54a3b61cc6c1f09') in 0.032725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Door_R.FBX
-  artifactKey: Guid(49d4a2f9b932ec74a8261f12e805845d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Door_R.FBX using Guid(49d4a2f9b932ec74a8261f12e805845d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffeb9f200e3da3f62635a62c1182e7f') in 0.028096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Railing_Stand.FBX
-  artifactKey: Guid(c2d44bc7ee0760143b80148fb6d543ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Railing_Stand.FBX using Guid(c2d44bc7ee0760143b80148fb6d543ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af96dc79ea94e174cc7e6caf9d713542') in 0.028584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Entrance_Doorway.FBX
-  artifactKey: Guid(6520fe4493a21a8478bf124700a27ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Entrance_Doorway.FBX using Guid(6520fe4493a21a8478bf124700a27ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2853b7020f6ea3f753119b50b538e6cd') in 0.059605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Colum_6M.FBX
-  artifactKey: Guid(436f48736c49aae40a083c3139e5123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Colum_6M.FBX using Guid(436f48736c49aae40a083c3139e5123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8a7e07904694b0d2734e0b0bbe566e') in 0.029319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Ceiling_Bulkhead.FBX
-  artifactKey: Guid(13c63bc4b6a686b4da0edc55b3d98143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Ceiling_Bulkhead.FBX using Guid(13c63bc4b6a686b4da0edc55b3d98143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07dc98f84d24865d831b64ac4ff49a5') in 0.032616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Railings_Stair.FBX
-  artifactKey: Guid(dca928c3930791d4ea9b100a52f58c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Railings_Stair.FBX using Guid(dca928c3930791d4ea9b100a52f58c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30a8316f6986be0d27b1e4befac06a8') in 0.028155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Clumn_Large_6M.FBX
-  artifactKey: Guid(acde5a94a651b764797b0a3ddafc95d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Clumn_Large_6M.FBX using Guid(acde5a94a651b764797b0a3ddafc95d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787d745c71060219119ea0209a652cb4') in 0.033703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Doorway_3M_Large_WDoors.FBX
-  artifactKey: Guid(40726672f9249744fb5eaeb6239ceb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Doorway_3M_Large_WDoors.FBX using Guid(40726672f9249744fb5eaeb6239ceb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e670e639e454b452b5475baffffd83') in 0.060467 seconds 
+  Time since last request: 0.000051 seconds.
+  path: Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Stairs.prefab
+  artifactKey: Guid(381a5fa832aff2046905beea6b46395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Stairs.prefab using Guid(381a5fa832aff2046905beea6b46395a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f680f57dc74da00b6414f7d40fa0dc71') in 0.043364 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_3M_1Sided.FBX
-  artifactKey: Guid(dab858e6e18daf84b853daaa1aaba185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_3M_1Sided.FBX using Guid(dab858e6e18daf84b853daaa1aaba185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2f1d3c151ef37a8b24ea88ba3ffdae') in 0.026040 seconds 
+  path: Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Railing_Stand.prefab
+  artifactKey: Guid(86e583b31b39f9e4b9f61d9c4b2d1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Railing_Stand.prefab using Guid(86e583b31b39f9e4b9f61d9c4b2d1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cceadf8dfcc496dfb73147bf0c4982d') in 0.036583 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Ceiling_Bulkhead_Start.FBX
-  artifactKey: Guid(3a9b428c9927bda4485a48f370f2fd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Ceiling_Bulkhead_Start.FBX using Guid(3a9b428c9927bda4485a48f370f2fd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cd91b26b14943c4a7f5d45ae687056') in 0.026251 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/Horror Environment Pack 1 v1.0/!Prefabs/Office_Props/Desk_Props/Stamp.prefab
+  artifactKey: Guid(58890475315b2554c8c7b5ff8b0e4d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0/!Prefabs/Office_Props/Desk_Props/Stamp.prefab using Guid(58890475315b2554c8c7b5ff8b0e4d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcd5f47a5dde73c68e7578a1c0dec4b') in 0.035775 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Ceiling_Bulkhead_Thin.FBX
-  artifactKey: Guid(4d2171e1d6986e4499d92f88bf9639eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Ceiling_Bulkhead_Thin.FBX using Guid(4d2171e1d6986e4499d92f88bf9639eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b415f6a147e290fd36ce55a18392baef') in 0.031268 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Floor_2nd_Floor_Stair_Half_L.prefab
+  artifactKey: Guid(4a472d29dfb2b334187d5d81324cfe62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Floor_2nd_Floor_Stair_Half_L.prefab using Guid(4a472d29dfb2b334187d5d81324cfe62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27ccae6e823c0fdd19568d825ad3d07') in 0.036783 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Colum_5M.FBX
-  artifactKey: Guid(556f919ba5184a44ca56719fca05fdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Colum_5M.FBX using Guid(556f919ba5184a44ca56719fca05fdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a331e89626ab6c8b3c871a57924cc849') in 0.033064 seconds 
+  Time since last request: 0.000090 seconds.
+  path: Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Stamp.FBX
+  artifactKey: Guid(0761ef28dc64c0d42a42efc072d969da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0/Office_Props/Models/Stamp.FBX using Guid(0761ef28dc64c0d42a42efc072d969da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0209b5e89c86981ed1f5a8e16dfb1a') in 0.054665 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Floor_2M.FBX
-  artifactKey: Guid(7482304dde9f4114093300dd7f70ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Floor_2M.FBX using Guid(7482304dde9f4114093300dd7f70ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452ab12a3ff528ff4ba4e6e2d64647b3') in 0.033124 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Ceiling_Bulkhead_Start.prefab
+  artifactKey: Guid(571b303e6c8bba44da8faefff39acbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Ceiling_Bulkhead_Start.prefab using Guid(571b303e6c8bba44da8faefff39acbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca5290c233601e53ac115e1631ea37c') in 0.056665 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Door_L.FBX
-  artifactKey: Guid(e8913d1323f74c344a3970d2889d6ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Door_L.FBX using Guid(e8913d1323f74c344a3970d2889d6ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d18dea9875bb49316235089c415b2f1') in 0.026968 seconds 
+  Time since last request: 0.000209 seconds.
+  path: Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Railings_Stair.prefab
+  artifactKey: Guid(1d0107bce683bff458e9b8635a95b326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Railings_Stair.prefab using Guid(1d0107bce683bff458e9b8635a95b326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c123cf75bbf4527b5a7634532f41840') in 0.061101 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_3M.FBX
-  artifactKey: Guid(3352f59c90195774ba56c3cfae79f039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_3M.FBX using Guid(3352f59c90195774ba56c3cfae79f039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4eff987c8bc06ca390efd034e9a355') in 0.033646 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/Horror Environment Pack 1 v1.0/!Prefabs/Office_Props/Picture_Frames/Frame_Stand_3.prefab
+  artifactKey: Guid(6446093579eeefb4584d039dfd624127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0/!Prefabs/Office_Props/Picture_Frames/Frame_Stand_3.prefab using Guid(6446093579eeefb4584d039dfd624127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22ea429c36b3eb91e948b311ae48cd2') in 0.048180 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_Bottom_Element_2M.FBX
-  artifactKey: Guid(fc4e0343d40fd364ab31d2c090f8e870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_Bottom_Element_2M.FBX using Guid(fc4e0343d40fd364ab31d2c090f8e870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e7b3cde9be61a35251221d5df86f61') in 0.033644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.612257 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_Corner_3M_Out.FBX
-  artifactKey: Guid(c5f3d71ecb5bbd142b7277374d32446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_Corner_3M_Out.FBX using Guid(c5f3d71ecb5bbd142b7277374d32446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156306a6d3c762e74fd1fa50d6478331') in 0.019841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_Corner_6M.FBX
-  artifactKey: Guid(0e71d5cdd8b31b2438f1f5541109977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_Corner_6M.FBX using Guid(0e71d5cdd8b31b2438f1f5541109977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1afd072ca2459c86ba1e16e27eb19b') in 0.037396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_Corner_6M_In.FBX
-  artifactKey: Guid(6407f0727ecb40b47b5181a844850ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_Corner_6M_In.FBX using Guid(6407f0727ecb40b47b5181a844850ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71f1576d217f31b7b636c4b56d559ed') in 0.034260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_Corner_6M_T.FBX
-  artifactKey: Guid(9f37e1c58743b314799768c70c1e6667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Wall_Corner_6M_T.FBX using Guid(9f37e1c58743b314799768c70c1e6667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86ec8be623e4f583d73d97de19a1c5b') in 0.032203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.570455 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Window_Small.FBX
-  artifactKey: Guid(48626a346dec059449db5c3c220b10fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Window_Small.FBX using Guid(48626a346dec059449db5c3c220b10fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f6599a7eb318b4207d03938107fe54') in 0.021531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Window_Square.FBX
-  artifactKey: Guid(c1cb4d61927e5ed4494c9d2ae3932af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horror Environment Pack 1 v1.0/Architectural/Hall/Hall_Window_Square.FBX using Guid(c1cb4d61927e5ed4494c9d2ae3932af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d353300ec2339d44347c1d60fda8c73') in 0.027784 seconds 
+  Time since last request: 0.000049 seconds.
+  path: Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Railing_Stand_Combined.prefab
+  artifactKey: Guid(66f4c1cad16157943a7d27baba918c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Environment Pack 1 v1.0/!Prefabs/Architectural/Hall_Props/Hall_Railing_Stand_Combined.prefab using Guid(66f4c1cad16157943a7d27baba918c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8e48a1d9fc7d7b57ec6697b1de2959') in 0.040582 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
